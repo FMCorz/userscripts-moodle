@@ -4,18 +4,22 @@
 // @include         http://localhost/*
 // @include         http://127.0.0.1/*
 // @include         http://*.moodle.local/*
+// @include         http://*.in.moodle.com/*
 // @include         https://localhost/*
 // @include         https://127.0.0.1/*
 // @include         https://*.moodle.local/*
+// @include         https://*.in.moodle.com/*
 // @match           http://localhost/*
 // @match           http://127.0.0.1/*
 // @match           http://*.moodle.local/*
+// @match           http://*.in.moodle.com/*
 // @match           https://localhost/*
 // @match           https://127.0.0.1/*
 // @match           https://*.moodle.local/*
+// @match           https://*.in.moodle.com/*
 // @grant           none
 // @author          Frédéric Massart - FMCorz.net
-// @version         0.520
+// @version         0.522
 // ==/UserScript==
 
 var mdkToolbar = {
@@ -36,29 +40,11 @@ var mdkToolbar = {
             'ja'
         ],
         themes: [
-            'afterburner',
-            'anomaly',
-            'arialist',
             'base',
-            'binarius',
-            'boxxie',
-            'brick',
+            'bootstrapbase',
             'canvas',
             'clean',
-            'formal_white',
-            'formfactor',
-            'fusion',
-            'leatherbound',
-            'magazine',
             'more',
-            'mymobile',
-            'nimble',
-            'nonzero',
-            'overlay',
-            'serenity',
-            'sky_high',
-            'splash',
-            'standard'
         ],
         opacity: '.8',
 
